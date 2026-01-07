@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    background: #fff;
+    padding: 25px;
+    width: 320px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.app h1 {
+    margin-bottom: 15px;
+}
+
+.search {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.search input {
+    flex: 1;
+    padding: 8px;
+}
+
+.search button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.weather p {
+    margin: 6px 0;
+    font-size: 15px;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
